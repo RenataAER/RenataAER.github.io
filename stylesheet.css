@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+
+body{
+    height: 2000px;
+    width: 99.4%;
+    font-family: poppins;
+    background-color: #242423;
+    padding-top: 10px;
+
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    border-bottom: #f9844a solid 1px;
+
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    
+}
+
+
+
+a{
+    color: whitesmoke;
+    font-size: 16pt;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+#icon{
+    width: 80px;
+    height: 70px;
+    margin-left: -220px;
+}
+
+
+.main{
+    color: #f8f9fa;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.main-left{
+    margin-top: 100px;
+    margin-left: 190px;
+    
+}
+
+#nome{
+    color: #f9844a;
+    font-size: 25pt;
+}
+
+.main-right{
+    margin-left: 200px;
+    margin-top: 110px;
+}
+
+
+.main-icons{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 300px;
+    margin-left: -1100px;
+    width: 150px;
+    height: 40px;
+}
+
+
+
+.about{
+    background-color: #2c2d2b;
+    display: flex;
+    margin-left: -10px;
+    height: 450px;
+
+}
+
+
+.profile{
+    
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#perfil{
+   width: 220px;
+   height: 350px;
+   border-left: #f9844a solid 5px;
+   border-top: #f9844a solid 2px;
+   border-right: #f9844a solid 2px;
+   border-bottom: #f9844a solid 2px;
+}
+
+
+.description{
+    height: 400px;
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+
+}
+
+
+.text{
+    color: #f8f9fa;
+
+}
